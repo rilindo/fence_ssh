@@ -3,7 +3,7 @@ Fencing agent that uses SSH, should only be used for testing.
 
 The branch alternate_version contains a version of the agent that works using the nodename parameter instead (read the readme on that branch).
 
-# How to Use
+## How to Use
 Place in `/usr/sbin` with execute permissions. Then you should be able to see it by running:
 
 ```
@@ -16,7 +16,7 @@ fence_virt - Fence agent for virtual machines
 <snip>
 ```
 
-# Create Stonith Resources
+## Create Stonith Resources
 
 You can see usage with either `fence_ssh --help` or by running `pcs stonith describe fence_ssh`
 
